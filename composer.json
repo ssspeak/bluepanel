@@ -1,0 +1,14 @@
+{
+    "name": "azaan/bluepanel",
+    "description": "admin panel for laravel 8",
+    "type": "project",
+    "license": "NSU",
+    "authors": [
+        {
+            "name": "Muhammad Asif",
+            "email": "muhammad.asif@nsu.edu.pk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
