@@ -9,5 +9,5 @@ use App\Http\Controllers\Controller;
 class BluepanelController extends Controller
 {
     //
-     
+     // testing
 }
