@@ -31,5 +31,6 @@ class BluepanelServiceProvider extends ServiceProvider
             __DIR__.'/public/css' => public_path('css'),
             __DIR__.'/public/views' => resource_path('views/bluepanel'),
         ]);
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }
