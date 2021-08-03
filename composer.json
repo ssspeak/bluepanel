@@ -1,8 +1,13 @@
 {
     "name": "azaan2/bluepanel",
-    "description": "admin panel for laravel 8",
-    "type": "project",
-    "license": "NSU",
+    "description": "Admin Panel for Laravel 8",
+    "keywords": [
+        "laravel",
+        "admin",
+        "panel"
+    ],
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Muhammad Asif",
@@ -10,5 +15,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
-}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Azaan\\Bluepanel\\": "src"
+        },
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Azaan\\Bluepanel\\BluepanelServiceProvider"
+                ]
+            }
+        }
+    }
