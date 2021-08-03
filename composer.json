@@ -19,13 +19,13 @@
     "autoload": {
         "psr-4": {
             "Azaan\\Bluepanel\\": "src"
-        },
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Azaan\\Bluepanel\\BluepanelServiceProvider"
-                ]
-            }
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azaan\\Bluepanel\\BluepanelServiceProvider"
+            ]
         }
     }
 }
